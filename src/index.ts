@@ -1,1 +1,4 @@
-export const sum = (a: number, b: number): number => a + b
+export const sum = async (event, context) => {
+  console.log(event)
+  return JSON.stringify({ message: 'hi from serverless' })
+}

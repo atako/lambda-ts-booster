@@ -1,10 +1,10 @@
-import path from 'path'
-import slsw from 'serverless-webpack'
+const path = require('path')
+const slsw = require('serverless-webpack')
 const isLocal = slsw.lib.webpack.isLocal
-// import nodeExternals from 'webpack-node-externals'
+const nodeExternals = require('webpack-node-externals')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
-import PnpWebpackPlugin from 'pnp-webpack-plugin'
+const PnpWebpackPlugin = require(`pnp-webpack-plugin`)
 
 module.exports = {
   mode: isLocal ? 'development' : 'production',
