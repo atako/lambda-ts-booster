@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/atako/lambda-ts-booster#readme",
   "devDependencies": {
+    "@types/jest": "^25.2.2",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "aws-sdk": "2.631.0",

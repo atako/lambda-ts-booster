@@ -3,6 +3,10 @@
     "lib": [
       "es2019"
     ],
+    "types": [
+      "jest",
+      "node"
+    ],
     "removeComments": true,
     "moduleResolution": "node",
     "sourceMap": true,
