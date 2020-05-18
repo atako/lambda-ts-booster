@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/dmitry/.nvm/versions/node/v10.20.1/bin/node /Users/dmitry/.yarn/bin/yarn.js add --dev aws-sdk@2.631.0 eslint@6.8.0 @typescript-eslint/parser typescript @typescript-eslint/eslint-plugin eslint-plugin-prettier prettier eslint-config-prettier eslint-config-airbnb-typescript jest jest-cli tsloader webpack serverless-webpack
+
+PATH: 
+  /Users/dmitry/.nvm/versions/node/v10.20.1/bin:/Users/dmitry/.yarn/bin:/Users/dmitry/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dmitry/.nvm/versions/node/v12.16.2/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.20.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tsloader: Not found
+      at Request.params.callback [as _callback] (/Users/dmitry/.yarn/lib/cli.js:66975:18)
+      at Request.self.callback (/Users/dmitry/.yarn/lib/cli.js:140727:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/dmitry/.yarn/lib/cli.js:141699:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/dmitry/.yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "lambda-ts-booster",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atako/lambda-ts-booster.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/atako/lambda-ts-booster/issues"
+    },
+    "homepage": "https://github.com/atako/lambda-ts-booster#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2019"
+    ],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2019",
+    "outDir": "lib",
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "__test__/**/*.spec.ts",
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*"
+  ]
+}
