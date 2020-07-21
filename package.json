@@ -37,5 +37,10 @@
     "webpack": "^4.43.0",
     "webpack-bundle-analyzer": "^3.8.0",
     "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.15.0",
+    "lodash": "^4.17.19",
+    "ramda": "^0.27.0"
   }
 }
